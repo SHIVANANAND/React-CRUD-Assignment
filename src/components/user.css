@@ -1,0 +1,24 @@
+/* .list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px dashed lightgray;
+} */
+
+.list {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    gap: 1rem;
+    border-bottom: 1px dashed lightgray;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    padding: 14px;
+    border: 1px dashed lightgray;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+}
+
+button {
+    border: none;
+    color: gray;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    color: black;
+}
+
+.btn-delete:hover {
+    color: red;
+}
+
+.btn-add:hover {
+    color: rgb(0, 80, 255);;
+}
+
+.App {
+    max-width: 982px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-family: poppins-semibold, poppins, sans-serif;
+}
+
+h2 {
+    margin-top: 4rem;
+    font-weight: 400;
+}
+
+form, form * {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+footer {
+    font-family: "Sen";
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 150px;
+}
+
+@media (max-width: 900px) {
+    .list {
+        font-size: small;
+    }
+}
