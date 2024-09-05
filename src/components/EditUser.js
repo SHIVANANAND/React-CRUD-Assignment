@@ -13,7 +13,7 @@ const EditUser = function({ user, onEdit, onCancel }) {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <h2>Add User</h2>
+                <h2>Edit User</h2>
                 <input
                     placeholder="Name"
                     name="name"
